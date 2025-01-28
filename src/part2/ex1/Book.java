@@ -1,4 +1,4 @@
-package part2;
+package part2.ex1;
 
 public class Book {
 	private String name;
