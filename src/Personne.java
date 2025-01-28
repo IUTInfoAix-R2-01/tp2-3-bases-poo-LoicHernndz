@@ -4,7 +4,7 @@ public class Personne {
 	private String nom;
 	private String prenom;
 	
-	public Personne (String prenom, String nom) {
+	public Personne (String nom, String prenom) {
 		this.prenom = prenom;
 		this.nom = nom;
 	}
@@ -20,9 +20,4 @@ public class Personne {
 	public String toString() {
 		return prenom + " " + nom;
 	}
-	
-	public static void main(String[] args) {
-		Personne P1 = new Personne("Agostinelli", "Laurence");
-	}
-
 }
